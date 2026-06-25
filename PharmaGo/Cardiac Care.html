@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardiac Care</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 160px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 14px;
+      margin: 10px 0;
+      min-height: 40px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #006633;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #004d26;
+    }
+
+    /* Discount / Offer Labels */
+    .label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: #ff4081;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 3px;
+    }
+
+    .label.price-drop {
+      background: #2196f3;
+      right: 8px;
+      left: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Cardiac Care Products</h2>
+  <div class="container">
+
+    <!-- Product 1 -->
+      <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/G/N/GNC0024_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="GNC Fish Body Oil 1000 mg, 90 Capsules">
+      <p class="title">GNC Fish Body Oil 1000 mg, 90 Capsules</p>
+      <p class="price">₹999</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/B/P/BPM0063_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Omron Blood Pressure Monitor HEM-7121 J, 1 Count">
+      <p class="title">Omron Blood Pressure Monitor HEM-7121 J, 1 Count</p>
+      <p class="price">₹2499</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/n/e/neu1021-1_1_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Neuherbs Deep Sea Omega 3 Fish Oil 2500mg (Triple Strength) With Vitamin D3">
+      <p class="title">Neuherbs Deep Sea Omega 3 Fish Oil 2500mg (Triple Strength) With Vitamin D3</p>
+      <p class="price">₹779</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 4 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/h/k/hkv0002_1-aug24_10_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="HealthKart HK Vitals Fish Oil 1000 mg, 60 Capsules">
+      <p class="title">HealthKart HK Vitals Fish Oil 1000 mg, 60 Capsules</p>
+      <p class="price">₹299</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 5 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/S/W/SWI0163_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Swisse Ultiboost 1800 mg 4X Strength Wild Fish Oil, 60 Capsules">
+      <p class="title">Swisse Ultiboost 1800 mg 4X Strength Wild Fish Oil, 60 Capsules</p>
+      <p class="price">₹2159</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 6 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/u/l/ult0363_1-oct23.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Ultra Q 300 Capsule">
+      <p class="title">Ultra Q 300 Capsule</p>
+      <p class="price">₹1599</p>
+      <a href="#" class="btn">Add</a>
+    </div> 
+    
+      <!-- Product 7 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/B/P/BPM0062_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Omron Automatic Blood Pressure Monitor HEM-8712, 1 Count">
+      <p class="title">Omron Automatic Blood Pressure Monitor HEM-8712, 1 Count</p>
+      <p class="price">₹2241</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 8 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/H/I/HIM0024_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Himalaya Arjuna Cardiac Wellness, 60 Tablets">
+      <p class="title">Himalaya Arjuna Cardiac Wellness, 60 Tablets</p>
+      <p class="price">₹249</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+ 
+      <!-- Product 9 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/H/DHO0082_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Dhootapapeshwar Arjunarishta, 450 ml">
+      <p class="title">Dhootapapeshwar Arjunarishta, 450 ml</p>
+      <p class="price">₹169</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 10 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/E/N/ENS0075_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Ensure Diabetes Care Vanilla Delight Flavour Powder for Adults, 1 kg (2x500 gm)">
+      <p class="title">Ensure Diabetes Care Vanilla Delight Flavour Powder for Adults, 1 kg (2x500 gm)</p>
+      <p class="price">₹1669</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 11 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/a/p/apo0077-_1_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Apollo Life Omega-3 Fish Oil 1000mg, 30 Capsules">
+      <p class="title">Apollo Life Omega-3 Fish Oil 1000mg, 30 Capsules</p>
+      <p class="price">₹220</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 12 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/N/E/NEP0041_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Nepro Complete Renal Nutrition High Protein Vanilla Toffee Flavour Powder">
+      <p class="title">Nepro Complete Renal Nutrition High Protein Vanilla Toffee Flavour Powder</p>
+      <p class="price">₹1215</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 13 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/b/l/blo0149_1-jul23.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Dr. Morepen Blood Pressure Monitor BP-15, 1 Count">
+      <p class="title">Dr. Morepen Blood Pressure Monitor BP-15, 1 Count</p>
+      <p class="price">₹1570</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 14 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/b/p/bpo0009_1-nov23.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Dr. Morepen BP One Blood Pressure Monitor BP-14, 1 Count">
+      <p class="title">Dr. Morepen BP One Blood Pressure Monitor BP-14, 1 Count</p>
+      <p class="price">₹1400</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 15 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/N/E/NEP0040_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Nepro Complete Renal Nutrition Lower Protein Vanilla">
+      <p class="title">Nepro Complete Renal Nutrition Lower Protein Vanilla</p>
+      <p class="price">₹1135</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 16 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/s/e/sev0043_1_2__1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Seven Seas Original Cod-Liver Oil 300 mg, 100 Capsules">
+      <p class="title">Seven Seas Original Cod-Liver Oil 300 mg, 100 Capsules</p>
+      <p class="price">₹425</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+    <a href="cart.html"><button style="background-color: #004d26; color: white; border-radius: 5px; height: 35px; width: 100px;">view cart</button></a>
+  </div>
+
+</body>
+</html>

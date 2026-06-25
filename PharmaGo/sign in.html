@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #83a4d4, #b6fbff);
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 320px;
+    }
+
+    .container p {
+      margin: 10px 0 5px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .container input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .container input:focus {
+      border-color: #007f5f;
+      box-shadow: 0 0 5px rgba(0,127,95,0.5);
+    }
+
+    button {
+      background: #007f5f;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 16px;
+      width: 100%;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #005f46;
+    }
+
+    #signIntext {
+      margin-top: 15px;
+      color: #007f5f;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <form onsubmit="return signIn()" action="file 1.html">
+      <p>Enter your name</p>
+      <input type="text" id="nameInput" placeholder="Your name" required />
+
+      <p>Enter your email</p>
+      <input type="email" id="emailInput" placeholder="Your email" required />
+
+      <p>Enter your phone number</p>
+      <input type="tel" id="phoneInput" placeholder="Your phone number" required />
+
+      <p>Enter your password</p>
+      <input type="password" id="passwordInput" placeholder="Your password" required />
+      <br><br>
+      
+      <button type="submit">Sign In</button>
+      <p id="signIntext"></p>
+    </form>
+  </div>
+
+  <script>
+    function signIn() {
+      document.getElementById("signIntext").innerText = "✅ You have signed in successfully!";
+      return true; // allows form to submit to "file 1.html"
+    }
+  </script>
+</body>
+</html>
+

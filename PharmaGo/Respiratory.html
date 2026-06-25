@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respiratory products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 160px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 14px;
+      margin: 10px 0;
+      min-height: 40px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #006633;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #004d26;
+    }
+
+    /* Discount / Offer Labels */
+    .label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: #ff4081;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 3px;
+    }
+
+    .label.price-drop {
+      background: #2196f3;
+      right: 8px;
+      left: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Respiratory products</h2>
+  <div class="container">
+
+    <!-- Product 1 -->
+      <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/h/i/him0026_1-jan24_5_.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Himalaya Wellness Pure Herbs Tulasi Respiratory Wellness, 60 Tablets">
+      <p class="title">Himalaya Wellness Pure Herbs Tulasi Respiratory Wellness, 60 Tablets</p>
+      <p class="price">₹220</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/I/DIV0264_1-JULY23_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Patanjali Divya Swasari Gold, 20 Capsules">
+      <p class="title">Patanjali Divya Swasari Gold, 20 Capsules</p>
+      <p class="price">₹400</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/I/DIV0263_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Patanjali Divya Shuddh Shilajeet, 20 gm">
+      <p class="title">Patanjali Divya Shuddh Shilajeet, 20 gm</p>
+      <p class="price">₹130</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 4 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/d/c/dco0003-1_1_.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="D Cold Total, 6 Tablets">
+      <p class="title">D Cold Total, 6 Tablets</p>
+      <p class="price">₹23</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 5 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/h/o/ho_lungdetox_tablets_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Vlado's Himalayan Organics Plant Based Lung Detox, 60 Tablets">
+      <p class="title">Vlado's Himalayan Organics Plant Based Lung Detox, 60 Tablets</p>
+      <p class="price">₹985</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 6 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/S/I/SID0050_1-AUG23_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Siddhayu Immune Yogue Junior Syrup for Kids, 200 ml">
+      <p class="title">Siddhayu Immune Yogue Junior Syrup for Kids, 200 ml</p>
+      <p class="price">₹325</p>
+      <a href="#" class="btn">Add</a>
+    </div> 
+    
+      <!-- Product 7 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/N/E/NEU0526_1_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Neurozan Tablet">
+      <p class="title">Neurozan Tablet</p>
+      <p class="price">₹275</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 8 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/h/e/hea0788_1-jan24_7_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Healthyr-U Oral Health Probiotic, 60 Chewable Tablets">
+      <p class="title">Healthyr-U Oral Health Probiotic, 60 Chewable Tablets</p>
+      <p class="price">₹625</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+ 
+      <!-- Product 9 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/Z/I/ZIA0003_1-AUG23_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Zia-200 Zinc Sulphate USP 200 mg Tablets">
+      <p class="title">Zia-200 Zinc Sulphate USP 200 mg Tablets</p>
+      <p class="price">₹350</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 10 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/P/N/PNE0004_1_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Pneunorm Cap 10'S">
+      <p class="title">Pneunorm Cap 10'S</p>
+      <p class="price">₹50</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 11 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/Q/D/QDE0003_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Himalaya Q-Dee Immuntiy, 8 Tablets">
+      <p class="title">Himalaya Q-Dee Immuntiy, 8 Tablets</p>
+      <p class="price">₹50</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 12 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/S/A/SAF0340_1-AUG23_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Saffola Immuniveda Chyawanprash, 500 gm">
+      <p class="title">Saffola Immuniveda Chyawanprash, 500 gm</p>
+      <p class="price">₹199</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 13 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/u/n/unj0035-_1_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Unjha Kafeshwari Syrup, 200 ml">
+      <p class="title">Unjha Kafeshwari Syrup, 200 ml</p>
+      <p class="price">₹170</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 14 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/P/U/PUR0306_1-AUG23_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Pure Nutrition Lung Detox, 60 Capsules">
+      <p class="title">Pure Nutrition Lung Detox, 60 Capsules</p>
+      <p class="price">₹1799</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 15 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/O/U/OUR0006_1-AUG23_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Ourdaily Ashwagandha, 60 Tablets">
+      <p class="title">Ourdaily Ashwagandha, 60 Tablets</p>
+      <p class="price">₹169</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 16 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/c/u/cur0318_3.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Curcucip, 10 Tablets">
+      <p class="title">Curcucip, 10 Tablets</p>
+      <p class="price">₹300</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+  <a href="cart.html"><button style="background-color: #004d26; color: white; border-radius: 5px; height: 35px; width: 100px;">view cart</button></a>
+  </div>
+
+</body>
+</html>

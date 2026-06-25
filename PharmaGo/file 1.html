@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Medicines and Essentials</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+    header .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #007f5f;
+    }
+    nav {
+      background: #014d4d;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .search-section {
+      background: #083c3c;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .search-section h1 {
+      margin-bottom: 20px;
+    }
+    .search-box input {
+      padding: 10px;
+      width: 300px;
+      border-radius: 5px;
+      border: none;
+    }
+    .conditions {
+      padding: 20px;
+    }
+    .conditions h2 {
+      margin-bottom: 20px;
+    }
+    .condition-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* 5 per row */
+      gap: 15px;
+    }
+    .condition-card {
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .condition-card i {
+      font-size: 24px;
+      margin-bottom: 8px;
+      color: #007f5f;
+    }
+    .condition-card:hover {
+      background: #007f5f;
+      color: #fff;
+      border-color: #007f5f;
+      transform: translateY(-3px);
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    .condition-card:hover i {
+      color: #fff;
+    }
+    .cart {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #007f5f;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+    .cart:hover {
+      background: #005f46;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+        <H3>PharmaXpress</H3>
+      </div>
+    <div class="logo">PharmaXpress</div>
+    <div>
+      <a href="profile.html"><button>Profile</button></a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Buy Medicines</a>
+  </nav>
+
+  <section class="search-section">
+    <h1>Buy Medicines and Essentials</h1>
+    <div class="search-box">
+      <input type="text" placeholder="Search Medicines">
+    </div>
+  </section>
+  <br>
+  <br>
+
+<style>
+  .condition-card {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  .condition-card i,
+  .condition-card .emoji {
+    font-size: 26px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .emoji-green { color: #007f5f; }   /* for ඵ */
+  .emoji-red { color: #d32f2f; }     /* for 🩸 */
+  .condition-card:hover {
+    background: #007f5f;
+    color: #fff;
+    border-color: #007f5f;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+  .condition-card:hover i,
+  .condition-card:hover .emoji {
+    color: #fff !important;
+  }
+</style>
+
+<div class="condition-grid">
+  <a href="diabetes care.html"><div class="condition-card"><i class="fas fa-syringe"></i> Diabetes Care</div></a>
+  <a href="Cardiac Care.html"><div class="condition-card"><i class="fas fa-heartbeat"></i> Cardiac Care</div></a>
+  <a href="Stomach Care.html"><div class="condition-card"><span class="emoji emoji-green">ඵ</span> Stomach Care</div></a>
+  <a href="Pain Relief.html"><div class="condition-card"><i class="fas fa-pills"></i> Pain Relief</div></a>
+  <a href="Liver Care.html"><div class="condition-card"><span class="emoji emoji-red">🩸</span> Liver Care</div></a>
+  <a href="Oral Care.html"><div class="condition-card"><i class="fas fa-tooth"></i> Oral Care</div></a>
+  <a href="Respiratory.html"><div class="condition-card"><i class="fas fa-lungs"></i> Respiratory</div></a>
+  <a href="Sexual Health.html"><div class="condition-card"><i class="fas fa-venus-mars"></i> Sexual Health</div></a>
+  <a href="Elderly Care.html"><div class="condition-card"><i class="fas fa-user-md"></i> Elderly Care</div></a>
+  <a href="Cold and Immunity.html"><div class="condition-card"><i class="fas fa-snowflake"></i> Cold & Immunity</div></a>
+</div>
+
+
+  <!-- View Cart Button -->
+  <div class="cart">
+    <i class="fas fa-shopping-cart"></i> View Cart
+  </div>
+
+    <!-- View Cart Button -->
+  <a href="cart.html" class="cart">
+    <i class="fas fa-shopping-cart"></i> View Cart
+  </a>
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #007f5f;
+      color: #fff;
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .cart-container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .cart-item:last-child {
+      border-bottom: none;
+    }
+    .item-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .item-info img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .item-details {
+      font-size: 14px;
+    }
+    .quantity {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .quantity button {
+      padding: 5px 10px;
+      border: none;
+      background: #007f5f;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .quantity button:hover {
+      background: #005f46;
+    }
+    .total {
+      text-align: right;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .checkout-btn {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      background: #007f5f;
+      color: #fff;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+    .checkout-btn:hover {
+      background: #005f46;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <i class="fas fa-shopping-cart"></i> Your Cart
+  </header>
+
+  <div class="cart-container">
+    <!-- Example Product -->
+    <div class="cart-item">
+      <div class="item-info">
+        <img src="https://via.placeholder.com/60" alt="Medicine">
+        <div class="item-details">
+          <strong>Paracetamol 500mg</strong><br>
+          ₹50
+        </div>
+      </div>
+      <div class="quantity">
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="item-info">
+        <img src="https://via.placeholder.com/60" alt="Medicine">
+        <div class="item-details">
+          <strong>Cough Syrup</strong><br>
+          ₹120
+        </div>
+      </div>
+      <div class="quantity">
+        <button>-</button>
+        <span>2</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <!-- Total -->
+    <div class="total">
+      Total: ₹290
+    </div>
+
+    <!-- Checkout Button -->
+    <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+  </div>
+
+</body>
+</html>
+
+
+</body>
+</html>

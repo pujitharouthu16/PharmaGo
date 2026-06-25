@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diabetes Care Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 160px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 14px;
+      margin: 10px 0;
+      min-height: 40px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #006633;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #004d26;
+    }
+
+    /* Discount / Offer Labels */
+    .label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: #ff4081;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 3px;
+    }
+
+    .label.price-drop {
+      background: #2196f3;
+      right: 8px;
+      left: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Pain Relief Products</h2>
+  <div class="container">
+
+    <!-- Product 1 -->
+      <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/A/M/AMR0012_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Amrutanjan Headache Faster Relaxation Roll-on, 10ml">
+      <p class="title">Amrutanjan Headache Faster Relaxation Roll-on, 10ml</p>
+      <p class="price">₹70</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/R/DRO0100_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Dr. Ortho Oil, 120 ml">
+      <p class="title">Dr. Ortho Oil, 120 ml</p>
+      <p class="price">₹295</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/A/M/AMR0149_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Amrutanjan Advanced Back Pain Roll-on, 50 ml">
+      <p class="title">Amrutanjan Advanced Back Pain Roll-on, 50 ml</p>
+      <p class="price">₹100</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 4 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/Z/A/ZAN0246_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Zandu Balm, 50 ml">
+      <p class="title">Zandu Balm, 50 ml</p>
+      <p class="price">₹185</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 5 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/I/O/IOD0006_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Iodex Fast Relief Balm, 40 gm">
+      <p class="title">Iodex Fast Relief Balm, 40 gm</p>
+      <p class="price">₹</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 6 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/P/I/PIL0155_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Himalaya Pilex Forte Ointment, 30 gm">
+      <p class="title">Himalaya Pilex Forte Ointment, 30 gm</p>
+      <p class="price">₹160</p>
+      <a href="#" class="btn">Add</a>
+    </div> 
+    
+      <!-- Product 7 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/A/M/AMR0021_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Amrutanjan Extra Power Pain Balm, 50 ml">
+      <p class="title">Amrutanjan Extra Power Pain Balm, 50 ml</p>
+      <p class="price">₹150</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 8 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/a/p/app0070-_1_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Apollo Pharmacy Pain Relief Spray, 50 ml">
+      <p class="title">Apollo Pharmacy Pain Relief Spray, 50 ml</p>
+      <p class="price">₹99</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+ 
+      <!-- Product 9 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/Z/A/ZAN0011_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Zandu Balm, 8 ml">
+      <p class="title">Zandu Balm, 8 ml</p>
+      <p class="price">₹46</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 10 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/M/O/MOO0169_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Moov Pain Relief Specialist Ointment, 75 gm">
+      <p class="title">Moov Pain Relief Specialist Ointment, 75 gm</p>
+      <p class="price">₹296</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 11 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/m/o/moo0020_1_1_.png?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Moov Pain Relief Cream, 20 gm">
+      <p class="title">Moov Pain Relief Cream, 20 gm</p>
+      <p class="price">₹121</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 12 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/M/O/MOO0022_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Moov Pain Relief Spray, 80 gm">
+      <p class="title">Moov Pain Relief Spray, 80 gm</p>
+      <p class="price">₹362</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 13 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/M/O/MOO0022_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Moov Pain Relief Spray, 35 gm">
+      <p class="title">Moov Pain Relief Spray, 35 gm</p>
+      <p class="price">₹230</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 14 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/M/A/MAC0316_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Macgesia Oil, 50 ml">
+      <p class="title">Macgesia Oil, 50 ml</p>
+      <p class="price">₹190</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 15 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/P/A/PAN0732_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Pankajakasthuri Orthoherb, 60 Tablets">
+      <p class="title">Pankajakasthuri Orthoherb, 60 Tablets</p>
+      <p class="price">₹345</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 16 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/a/p/app0098-_11_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Apollo Pharmacy Pain Relief Oil, 60 ml">
+      <p class="title">Apollo Pharmacy Pain Relief Oil, 60 ml</p>
+      <p class="price">₹130</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+  <a href="cart.html"><button style="background-color: #004d26; color: white; border-radius: 5px; height: 35px; width: 100px;">view cart</button></a>
+  </div>
+
+</body>
+</html>

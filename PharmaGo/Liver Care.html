@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diabetes Care Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 160px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 14px;
+      margin: 10px 0;
+      min-height: 40px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #006633;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #004d26;
+    }
+
+    /* Discount / Offer Labels */
+    .label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: #ff4081;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 3px;
+    }
+
+    .label.price-drop {
+      background: #2196f3;
+      right: 8px;
+      left: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Diabetes Care Products</h2>
+  <div class="container">
+
+    <!-- Product 1 -->
+      <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/a/p/apo0077-_1_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Apollo Life Omega-3 Fish Oil 1000mg, 30 Capsules">
+      <p class="title">Apollo Life Omega-3 Fish Oil 1000mg, 30 Capsules</p>
+      <p class="price">₹220</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/L/I/LIV0029_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Himalaya Liv.52 DS, 60 Tablets">
+      <p class="title">Himalaya Liv.52 DS, 60 Tablets</p>
+      <p class="price">₹275</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/L/I/LIV0029_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Himalaya Liv.52 DS, 60 Tablets">
+      <p class="title">Himalaya Liv.52 DS, 100 Tablets</p>
+      <p class="price">₹235</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 4 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/E/F/EFE0033_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Efezac Sugar Free Delicious Orange Sachet">
+      <p class="title">Efezac Sugar Free Delicious Orange Sachet</p>
+      <p class="price">₹185</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 5 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/b/e/beri.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Beritol Tablet">
+      <p class="title">Beritol Tablet</p>
+      <p class="price">₹389</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 6 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/L/I/LIV0072_1_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Liveril Forte Tablet">
+      <p class="title">Liveril Forte Tablet</p>
+      <p class="price">₹430</p>
+      <a href="#" class="btn">Add</a>
+    </div> 
+    
+      <!-- Product 7 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/L/I/LIV0021_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Himalaya Liv.52 Syrup, 200 ml">
+      <p class="title">Himalaya Liv.52 Syrup, 200 ml</p>
+      <p class="price">₹230</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 8 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/H/E/HEP0250_1_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Heptagon Tablet">
+      <p class="title">Heptagon Tablet</p>
+      <p class="price">₹289</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+ 
+      <!-- Product 9 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/P/E/PEN0378_1_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Pentasure Hepatic Creamy Vanilla Flavour Powder, 400 gm Tin">
+      <p class="title">Pentasure Hepatic Creamy Vanilla Flavour Powder, 400 gm Tin</p>
+      <p class="price">₹1409</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 10 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/A/L/ALC0148_1_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Alcomax Tablet">
+      <p class="title">Alcomax Tablet</p>
+      <p class="price">₹270</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 11 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/H/DHO0089_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Dhootapapeshwar Pittashekhar Rasa, 30 Tablets">
+      <p class="title">Dhootapapeshwar Pittashekhar Rasa, 30 Tablets</p>
+      <p class="price">₹1015</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 12 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/L/I/LIV0409_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Himalaya Liv.52 Ds Syrup, 200 ml">
+      <p class="title">Himalaya Liv.52 Ds Syrup, 200 ml</p>
+      <p class="price">₹350</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 13 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/I/DIV0260_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Patanjali Divya Livogrit, 60 Tablets">
+      <p class="title">Patanjali Divya Livogrit, 60 Tablets</p>
+      <p class="price">₹240</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 14 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/A/M/AML0353_1-JULY23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Aimil Amlycure D.S. Capsule 20's">
+      <p class="title">Aimil Amlycure D.S. Capsule 20's</p>
+      <p class="price">₹180</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 15 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/S/W/SWI0169_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Swisse Ultiboost Liver Detox, 60 Tablets">
+      <p class="title">Swisse Ultiboost Liver Detox, 60 Tablets</p>
+      <p class="price">₹1649</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 16 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/H/DHO0079_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Dhootapapeshwar Punarnavasav, 450 ml">
+      <p class="title">Dhootapapeshwar Punarnavasav, 450 ml</p>
+      <p class="price">₹170</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+  <a href="cart.html"><button style="background-color: #004d26; color: white; border-radius: 5px; height: 35px; width: 100px;">view cart</button></a>
+  </div>
+
+</body>
+</html>

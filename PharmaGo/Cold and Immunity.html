@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Cold and Immunity Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 160px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 14px;
+      margin: 10px 0;
+      min-height: 40px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #006633;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #004d26;
+    }
+
+    /* Discount / Offer Labels */
+    .label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: #ff4081;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 3px;
+    }
+
+    .label.price-drop {
+      background: #2196f3;
+      right: 8px;
+      left: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2> Cold and Immunity Products</h2>
+  <div class="container">
+
+    <!-- Product 1 -->
+      <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/v/i/vic0024__1_.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max" alt="Vicks Vaporub, 25 ml">
+      <p class="title">Vicks Vaporub, 25 ml</p>
+      <p class="price">₹109</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/h/i/him0200_1-jan24_1_.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Himalaya Neem Skin Wellness, 60 Tablets">
+      <p class="title">Himalaya Neem Skin Wellness, 60 Tablets</p>
+      <p class="price">₹240</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/a/p/apa0040-_71_.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Apollo Life Aloe Vera Juice, 1 Litre">
+      <p class="title">Apollo Life Aloe Vera Juice, 1 Litre</p>
+      <p class="price">₹290</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 4 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/v/i/vic0020_1-nov2023_3_.jpeg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Vicks Inhaler, 0.5 ml">
+      <p class="title">Vicks Inhaler, 0.5 ml</p>
+      <p class="price">₹69</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 5 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/k/o/kof0003_1-jan24_4_.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Himalaya Koflet Cough Syrup, 100 ml">
+      <p class="title">Himalaya Koflet Cough Syrup, 100 ml</p>
+      <p class="price">₹125</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+       <!-- Product 6 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/d/c/dco0003-1_1_.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="D Cold Total, 6 Tablets">
+      <p class="title">D Cold Total, 6 Tablets</p>
+      <p class="price">₹25</p>
+      <a href="#" class="btn">Add</a>
+    </div> 
+    
+      <!-- Product 7 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/D/A/DAB0019_1-JULY23_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Dabur Honey, 100 gm">
+      <p class="title">Dabur Honey, 100 gm</p>
+      <p class="price">₹70</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 8 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/C/O/COF0151_1-JULY23_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Cofsils Naturals Cough Syrup, 100 ml">
+      <p class="title">Cofsils Naturals Cough Syrup, 100 ml</p>
+      <p class="price">₹90</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+ 
+      <!-- Product 9 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/Z/A/ZAN0253_1-AUG23_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Zandu Tulsi Drops, 32 ml">
+      <p class="title">Zandu Tulsi Drops, 32 ml</p>
+      <p class="price">₹190</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 10 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/s/w/swa0091.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Swadeshi Giloy Ras Juice, 500 ml">
+      <p class="title">Swadeshi Giloy Ras Juice, 500 ml</p>
+      <p class="price">₹195</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 11 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/J/I/JIV0019_1-AUG23_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Jiva Amla Juice, 500 ml">
+      <p class="title">Jiva Amla Juice, 500 ml</p>
+      <p class="price">₹120</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 12 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/s/w/swa0096_1_1_.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Swadeshi Shudh Triphala Ras Juice, 1000 ml">
+      <p class="title">Swadeshi Shudh Triphala Ras Juice, 1000 ml</p>
+      <p class="price">₹250</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 13 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/c/o/cof0043_1.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Cofsils Ginger Lemon, 10 Lozenges">
+      <p class="title">Cofsils Ginger Lemon, 10 Lozenges</p>
+      <p class="price">₹35</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 14 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/s/a/saf0342.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Saffola Immuniveda Kadha Mix, 80 gm (20 Sachets x 4 gm)">
+      <p class="title">Saffola Immuniveda Kadha Mix, 80 gm (20 Sachets x 4 gm)</p>
+      <p class="price">₹199</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 15 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/t/u/tul0050.jpg?tr=q-60,f-webp,w-150,dpr-1,c-at_max" alt="Dabur Tulsi Immunity Booster Drops, 30 ml">
+      <p class="title">Dabur Tulsi Immunity Booster Drops, 30 ml</p>
+      <p class="price">₹156</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+
+      <!-- Product 16 -->
+    <div class="card">
+      <img src="https://images.apollo247.in/pub/media/catalog/product/A/M/AMR0109_1-JULY23_1.jpg?tr=q-80,f-webp,w-150,dpr-1,c-at_max" alt="Amrutanjan Relief Cough & Cold Rub, 30 gm">
+      <p class="title">Amrutanjan Relief Cough & Cold Rub, 30 gm</p>
+      <p class="price">₹50</p>
+      <a href="#" class="btn">Add</a>
+    </div>
+    <a href="cart.html"><button style="background-color: #004d26; color: white; border-radius: 5px; height: 35px; width: 100px;">view cart</button></a>
+    </div>
+
+</body>
+</html>
